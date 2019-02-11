@@ -20,6 +20,9 @@ function App() {
         <Link to="/draggable">
           <p>Draggable</p>
         </Link>
+        <Link to="/table">
+          <p>Tabley tabel</p>
+        </Link>
       </nav>
       {routes}
     </div>
