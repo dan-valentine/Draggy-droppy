@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Sort.css';
+import FlipMove from 'react-flip-move';
 
 class OrderTasks extends Component {
   constructor(props) {
@@ -60,7 +61,13 @@ class OrderTasks extends Component {
         </div>
       );
     });
-    return <ol className="Sort">{displayList}</ol>;
+    return (
+      <ol className="Sort">
+        <FlipMove>
+          {displayList}
+        </FlipMove>
+      </ol>
+    );
   }
 }
 

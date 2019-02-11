@@ -1,0 +1,13 @@
+.Table-demo-container{
+    margin: auto;
+    padding: 50px;
+    color: white;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border: 1px solid #cccccc;
+}
